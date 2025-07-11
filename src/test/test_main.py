@@ -49,3 +49,5 @@ def test_comentario_con_script():
 def test_comentario_con_sql():
     comentario = "'); DROP TABLE usuarios; --"
     assert guardar_comentario(comentario) is False
+
+#ready
